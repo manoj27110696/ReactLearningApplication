@@ -1,0 +1,6 @@
+Component is a building block of the React Application.
+ *
+ * @author  [name] <[<email address>]>
+ */ 
+ Components are typically exported and can be imported by other components.
+ */
