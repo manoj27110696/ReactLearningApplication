@@ -1,6 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import './App.css';
 import { Profile } from './Interfaces/GithubProfile';
 
@@ -37,8 +36,6 @@ function App({ login }: { login: string }) {
 	return <div>No data</div>;
 }
 
-App.propTypes = {
-	login: PropTypes.string.isRequired,
-};
+
 
 export default App;
